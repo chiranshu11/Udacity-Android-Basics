@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="13dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="com.example.chiranshu.project4.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".65"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/back_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".48"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".14"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:text="Music"
+            android:textColor="@android:color/black"
+            android:textSize="55sp" />
+
+
+        <ImageView
+            android:id="@+id/search_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".45"
+            android:background="@android:color/background_light"
+            android:paddingRight="15dp"
+            android:src="@drawable/search" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:src="@drawable/player_image"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/recent_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="17dp"
+                android:src="@drawable/recent" />
+
+
+            <ImageView
+                android:id="@+id/shuffle_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="17dp"
+                android:src="@drawable/shuffle" />
+
+            <ImageView
+                android:id="@+id/repeat_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="14dp"
+                android:src="@drawable/repeat" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="9dp"
+        android:layout_weight=".35"
+        android:paddingTop="2dp"
+
+        android:text="Unknown Artist"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="9dp"
+        android:layout_weight=".35"
+        android:text="Metal"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="9dp"
+        android:layout_weight=".35"
+        android:text="Walk With Me In Hell"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+
+        android:text="Media player class will used to play sound and videos and audio manager to manage audio src and audio output on the device"
+        android:textSize="12sp"
+        android:layout_weight=".30"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight=".6"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backward_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:padding="20dp"
+            android:src="@drawable/backward" />
+
+        <ImageView
+            android:id="@+id/play_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:padding="15dp"
+            android:src="@drawable/play" />
+
+        <ImageView
+            android:id="@+id/forward_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:padding="20dp"
+            android:src="@drawable/forward" />
+
+    </LinearLayout>
+</LinearLayout>

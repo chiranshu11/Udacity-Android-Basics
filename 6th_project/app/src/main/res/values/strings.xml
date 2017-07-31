@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">project_7(new)</string>
+    <string name="g_j">Gulmarg</string>
+    <string name="b_v_j">Betab Valley
+</string>
+    <string name="s_j">Sonmarg</string>
+    <string name="b_j">Baltal</string>
+    <string name="p_j">Pahal GaM</string>
+    <string name="h_m">hidimba temple</string>
+    <string name="s_v_m">solang valley</string>
+    <string name="r_m">rohtang pass</string>
+    <string name="m_m">manali bazar</string>
+    <string name="a_r">amber fort</string>
+    <string name="j_r">jantar mantar</string>
+    <string name="h_r">hawa mahel</string>
+    <string name="c_r">city palace,jaipur</string>
+    <string name="v_m">van vihar</string>
+    <string name="d_t_r">dilwara temple</string>
+    <string name="j_f_r">jaislmer fort</string>
+    <string name="d_j">Dul lake</string>
+    <string name="cc_s">christ church</string>
+    <string name="j_s">jakhoo temple</string>
+    <string name="m_s">mall road</string>
+    <string name="j_museun_s">JOHNNIE WAX MUSEUM</string>
+    <string name="t_r_s">the ridge</string>
+    <string name="r_s">RASHTRAPATI NIWAS</string>
+    <string name="m_c">Marina Beach</string>
+    <string name="e_c">Edward Elliot Beach</string>
+    <string name="thomas_c">St.Thomas Cathedral Basilica</string>
+    <string name="k_c">Kapaleeshwarar Temple</string>
+    <string name="f_c">Fort St. George</string>
+
+</resources>

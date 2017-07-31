@@ -1,0 +1,372 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.example.chiranshu.quiz2.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/txt_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="            ENTER YOUR NAME HERE" />
+
+
+        <TextView
+            android:id="@+id/edittext_ques"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Goku belongs to _____ universe"
+            android:textSize="24sp"
+            android:layout_margin="8dp"/>
+        <EditText
+            android:id="@+id/txt_id1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="          "
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/ck_ques"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Gods are intoduced in_____Saga"
+            android:textSize="24sp" />
+
+
+        <CheckBox
+            android:id="@+id/ck_q1_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:onClick="ck_q1a"
+            android:text="Dragon ball super"
+            android:textSize="20sp" />
+
+
+        <CheckBox
+            android:id="@+id/ck_q1_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Dragon ball GT"
+            android:textSize="20sp" />
+
+
+        <CheckBox
+            android:id="@+id/ck_q1_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Dragon ball Evolution"
+            android:textSize="20sp" />
+
+
+        <CheckBox
+            android:id="@+id/ck_q1_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Dragon ball Z"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ques1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Who is goku's first son?"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r1">
+
+            <RadioButton
+                android:id="@+id/q1_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Gohan"
+                android:textSize="20sp"
+                android:onClick="q1a"/>
+
+            <RadioButton
+                android:id="@+id/q1_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Yamcha"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q1_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Goten"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q1_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Trunks"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/ques2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Who is vegeta's first son?"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r2">
+
+            <RadioButton
+                android:id="@+id/q2_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Gohan"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q2_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:onClick="q2b"
+                android:text="Trunks"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q2_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Goten"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q2_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Gotenk"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/ques3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="How many times had son Goku defeated in his battles?"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r3">
+
+            <RadioButton
+                android:id="@+id/q3_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="0"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q3_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="5"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q3_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:onClick="q3c"
+                android:text="3"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q3_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="8"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/ques4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="What is Goku's trump move in super series?"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r5">
+
+            <RadioButton
+                android:id="@+id/q4_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="KaMe HaMe"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q4_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="God Meteor"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q4_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Spirit Bomb"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q4_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:onClick="q4d"
+                android:text="Kaio-ken"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/ques5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Have ever Vegeta surpassed Goku?"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r6">
+
+            <RadioButton
+                android:id="@+id/q5_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:onClick="q5a"
+                android:text="Yes"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q5_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="No"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q5_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="They are Equal"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q5_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="None of these"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/ques6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Who is father of angel WHIS?"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r7">
+
+            <RadioButton
+                android:id="@+id/q6_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Omni-king"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q6_b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Beerus"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q6_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Chamapa"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/q6_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:onClick="q6d"
+                android:text="Great Priest"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="SUBMIT"
+            android:textSize="30sp" />
+    </LinearLayout>
+</ScrollView>
