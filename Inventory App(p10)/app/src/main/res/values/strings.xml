@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">p10</string>
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <string name="empty_view_subtitle_text">Get started by adding a product</string>
+    <string name="editor_delete_product_successful">Pet deleted</string>
+
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <string name="delete">Delete</string>
+    <string name="insert_failed">please enter all the requirements correctly</string>
+   <string name="cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_order">Order</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="action_delete_all_entries">Delete All Products</string>
+
+    <string name="edit_product">EDIT Products</string>
+    <string name="add_product">ADD Products</string>
+    <string name="update_failed">UPDATE FAILED</string>
+    <string name="enter_quantity">PLEASE! ENTER QUANTITY!</string>
+    <string name="unsaved_changes_dialog_msg">unsaved changes</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">keep edititng</string>
+    <string name="not_in_stock">Not in Stock</string>
+    <string name="subj">Order</string>
+
+</resources>
